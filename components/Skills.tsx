@@ -4,23 +4,16 @@ import { IconCloud } from "@/components/ui/IconCloud";
 const slugs = [
   "typescript",
   "javascript",
-  "java",
   "react",
   "html5",
   "css3",
   "nodedotjs",
-  "express",
   "nextdotjs",
-  "prisma",
-  "postgresql",
   "vercel",
   "jest",
-  "docker",
   "git",
   "github",
   "visualstudiocode",
-  "figma",
-  "mongodb",
   "python",
   
 ];

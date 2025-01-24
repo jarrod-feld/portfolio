@@ -7,16 +7,16 @@ export const navItems = [
   export const projects = [
         {
       id: 1,
-      title: "CopilotMate",
-      des: "CopilotMate is an open-source personal assistant designed to streamline productivity with an intuitive interface and a suite of essential tools.",
-      img: "/copilotmate.png",
-      iconLists: ["/next.svg",  "/tail.svg", "/ts.svg", "/fm.svg"],
-      link: "https://youtu.be/qPVRPUH8ewU?si=PmCxfpnI30lgJRd0",
+      title: "Tune Share",
+      des: "TuneShare is a ",
+      img: "/TuneShare.png",
+      iconLists: ["/re.svg",  "/tail.svg","/js.svg"],
+      link: "tune-room.vercel.app",
     },
     {
       id: 2,
-      title: "Mystery Message",
-      des: "Mystery Message allows users to send and receive anonymous messages, ensuring privacy and fostering honest communication without revealing identities.",
+      title: "Vader Suit",
+      des: "3D printed Darth Vader Suit with integrated Ventilation system, voice changer, lighting, and sound effects.",
       img: "/p1.png",
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg","/mongo.svg"],
       link: "github.com/AkashJana18/nextjs-project",
