@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20-z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <img
-            src="/dp2.jpg"
+            src="/dp3.jpg"
             alt="profile-pic"
             className="rounded-full w-80 h-80 border-2 border-white-100 mb-5"
           />
