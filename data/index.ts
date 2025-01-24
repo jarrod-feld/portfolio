@@ -9,7 +9,7 @@ export const navItems = [
       id: 1,
       title: "Tune Share",
       des: "TuneShare is a ",
-      img: "/TuneShare.png",
+      img: "/tunshare.jpg",
       iconLists: ["/re.svg",  "/tail.svg","/js.svg"],
       link: "tune-room.vercel.app",
     },
