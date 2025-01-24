@@ -9,7 +9,7 @@ export const navItems = [
       id: 1,
       title: "Tune Share",
       des: "TuneShare enables Spotify Premium users to host a Music Room in which all participants can listen to the same songs together.",
-      img: "/tunshare.jpg",
+      img: "/p2.png",
       iconLists: ["/re.svg",  "/tail.svg","/js.svg"],
       link: "tune-room.vercel.app",
     },
