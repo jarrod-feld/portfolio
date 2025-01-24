@@ -8,22 +8,17 @@ const Footer = () => {
     <footer className="w-full mb-[100px] md:mb-5 pb-10" id="contact">
       <div>
         <Spotlight className=" h-screen" fill="grey" />
-        <Spotlight className=" left-full h-[80vh]" fill="violet" />
-        <Spotlight className=" left-80 h-[80vh] w-[50vw]" fill="#87CEEB" />
+        <Spotlight className=" left-full h-[80vh]" fill="white" />
+        <Spotlight className=" left-80 h-[80vh] w-[50vw]" fill="white" />
       </div>
       {/* background grid */}
      
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Contact me
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
-        </p>
-        <a href="mailto:akashjana663@gmail.com">
+        <a href="mailto:jdevin814@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}

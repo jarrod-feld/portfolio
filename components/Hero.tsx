@@ -74,7 +74,7 @@ const Hero = () => {
                       </div>
           <a href="#projects" className="cursor-pointer">
             <MagicButton
-              title="Project"
+              title="Projects"
               icon={<FaLocationArrow />}
               position="right"
             />
