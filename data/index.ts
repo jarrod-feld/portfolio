@@ -1,9 +1,6 @@
 export const navItems = [
     { name: "About", link: "#about" },
-    { name: "Resume", link: "https://drive.google.com/file/d/1udileHqcrbD09gjuFpUZlHgpOajw3UU_/view?usp=sharing" },
     { name: "Projects", link: "#projects" },
-    //{ name: "Testimonials", link: "#testimonials" },
-    { name: "Blogs", link: "https://dev.to/akashjana"},
     { name: "Contact", link: "#contact" },
   ];
   
@@ -209,16 +206,12 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      href: "https://github.com/AkashJana18",
+      href: "https://github.com/jarrod-feld",
     },
-    {
-      id: 2,
-      img: "/twit.svg",
-      href: "https://x.com/Akashj_01",
-    },
+    
     {
       id: 3,
       img: "/link.svg",
-      href: "https://www.linkedin.com/in/akashjana",
+      href: "https://www.linkedin.com/in/jarrodfeld",
     },
   ];

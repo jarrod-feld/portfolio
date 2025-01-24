@@ -3,25 +3,25 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TypewriterEffect } from "./ui/TypewriterEffect";
+import { socialMedia } from "@/data";
 
 const Hero = () => {
   const words = [
     {
-      text: "I",
+      text: "Hi,",
     },
     {
-      text: "Build",
+      text: "My",
     },
     {
-      text: "High-performance",
+      text: "Name",
     },
     {
-      text: "Web",
-      className: "text-purple dark:text-purple",
+      text: "Is",
     },
     {
-      text: "Applications",
-      className: "text-purple dark:text-purple",
+      text: "Jarrod",
+      className: "text-red-500 dark:text-red-500",
     },
   ];
 
@@ -43,8 +43,8 @@ const Hero = () => {
         />
       </div>
 
-      <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.1] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
-        <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
+      <div className="h-screen w-full bg-black items-center justify-center absolute top-0 left-0">
+        <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black" />
       </div>
 
       <div className="flex justify-center relative my-20-z-10">
@@ -54,20 +54,27 @@ const Hero = () => {
             alt="profile-pic"
             className="rounded-full w-80 h-80 border-2 border-white-100 mb-5"
           />
-          <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Akash Jana
-          </h2>
           <TypewriterEffect
             className="text-center md:text-5xl lg:text-6xl my-5"
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I&apos;m Akash, a Web Developer, Open Source and AI Enthusiast.
+          Aerospace engineering student skilled in React, Django, and SQLite full-stack development. Experienced in API integration, testing, and optimization. Passionate about building efficient, user-centric solutions and fostering software-driven innovation.
           </p>
-
+          <div className="flex items-center md:gap-3 gap-6">
+                    {socialMedia.map((info) => (
+                      <div
+                        key={info.id}
+                        className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                      >
+                        <a href={info.href} target="_blank">
+                          <img src={info.img} alt="icons" width={30} height={20} />
+                        </a>
+                      </div>))}
+                      </div>
           <a href="#projects" className="cursor-pointer">
             <MagicButton
-              title="Show my work"
+              title="Project"
               icon={<FaLocationArrow />}
               position="right"
             />

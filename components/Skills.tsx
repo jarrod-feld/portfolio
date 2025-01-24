@@ -27,10 +27,10 @@ const slugs = [
 
 function Skills() {
   return (
-    <div className="my-10 py-10">
+    <div className="my-10 py-20 bg-black">
       <h1 className="heading">
         Skills &amp;{" "}
-        <span className="text-purple">Technologies</span>
+        <span className="text-red">Technologies</span>
       </h1>
       <IconCloud iconSlugs={slugs} />
     </div>
