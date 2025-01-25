@@ -19,7 +19,7 @@ export const navItems = [
       des: "A GPT Personal Development application aimed at providing personalized advice for improving skin care and fitness",
       img: "/p1.png",
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
-      link: "github.com/ashakeem/looksai",
+      link: "/github.com/ashakeem/looksai",
     },
   ];
   
