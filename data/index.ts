@@ -21,6 +21,14 @@ export const navItems = [
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
       link: "/github.com/ashakeem/looksai",
     },
+    {
+      id: 3,
+      title: "Youtube Transcript and Research Scapper for AI Datasets",
+      des: "Utilizes Youtube API and Google Speech to text API to compile datasets for AI",
+      img: "/p1.png",
+      iconLists: ["/ts.svg"],
+      link: "/github.com/jarrod-feld/Youtuber-Scaper",
+    },
   ];
   
     
