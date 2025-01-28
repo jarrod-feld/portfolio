@@ -23,7 +23,7 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "Youtube Transcript and Research Scapper for AI Datasets",
+      title: "Youtube Transcript and Research Scrapper for AI Datasets",
       des: "Utilizes Youtube API and Google Speech to text API to compile datasets for AI",
       img: "/p4.png",
       iconLists: ["/ts.svg"],
