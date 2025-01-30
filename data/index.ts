@@ -27,7 +27,7 @@ export const navItems = [
       des: "Utilizes Youtube API and Google Speech to text API to compile datasets for AI",
       img: "/p4.png",
       iconLists: ["/ts.svg"],
-      link: "/github.com/jarrod-feld/Youtuber-Scaper",
+      link: "/github.com/jarrod-feld/Youtuber-Scraper",
     },
   ];
   
