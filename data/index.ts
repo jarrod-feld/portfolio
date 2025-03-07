@@ -5,8 +5,17 @@ export const navItems = [
   ];
   
   export const projects = [
-        {
+      {
       id: 1,
+      title: "FirstYearAI",
+      des: "Utilizes fine-tuned Gemini model to give First Year College Students a roadmap to learn skills",
+      img: "/p5.png",
+      iconLists: ["/ts.svg"],
+      link: "/firstyearai.app",
+    },
+        {
+            
+      id: 2,
       title: "Tune Share",
       des: "TuneShare enables Spotify Premium users to host a Music Room in which all participants can listen to the same songs together.",
       img: "/p2.png",
@@ -14,7 +23,7 @@ export const navItems = [
       link: "tune-room.vercel.app",
     },
     {
-      id: 2,
+      id: 3,
       title: "Maxxed AI (Under Development)",
       des: "A GPT Personal Development application aimed at providing personalized advice for improving skin care and fitness",
       img: "/p1.png",
@@ -22,13 +31,14 @@ export const navItems = [
       link: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Youtube Transcript and Research Scrapper for AI Datasets",
       des: "Utilizes Youtube API and Google Speech to text API to compile datasets for AI",
       img: "/p4.png",
       iconLists: ["/ts.svg"],
       link: "/github.com/jarrod-feld/Youtuber-Scraper",
     },
+    
   ];
   
     
