@@ -9,7 +9,7 @@ export const navItems = [
       id: 1,
       title: "FirstYearAI",
       des: "Utilizes fine-tuned Gemini model to give First Year College Students a roadmap to learn skills",
-      img: "/p3.png",
+      img: "/p5.png",
       iconLists: ["/ts.svg"],
       link: "/www.firstyearai.app",
     },
