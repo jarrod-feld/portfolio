@@ -8,7 +8,7 @@ export const navItems = [
       {
       id: 1,
       title: "FirstYearAI",
-      des: "Utilizes fine-tuned Gemini model to give First Year College Students a roadmap to learn skills",
+      des: "(1000+ Users) Utilizes fine-tuned Gemini model to give First Year College Students a roadmap to learn skills",
       img: "/p5.png",
       iconLists: ["/ts.svg",'/tail.svg'],
       link: "/www.firstyearai.app",
@@ -17,7 +17,7 @@ export const navItems = [
             
       id: 2,
       title: "Tune Share",
-      des: "TuneShare enables Spotify Premium users to host a Music Room in which all participants can listen to the same songs together.",
+      des: "(Under Developement)TuneShare enables Spotify Premium users to host a Music Room in which all participants can listen to the same songs together.",
       img: "/p2.png",
       iconLists: ["/re.svg",  "/tail.svg","/js.svg"],
       link: "tune-room.vercel.app",
