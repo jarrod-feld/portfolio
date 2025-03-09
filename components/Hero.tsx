@@ -59,7 +59,7 @@ const Hero = () => {
             words={words}
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          Aerospace engineering student skilled in React, Django, and SQLite full-stack development. Experienced in API integration, testing, and optimization. Passionate about building efficient, user-centric solutions and fostering software-driven innovation.
+          Aerospace engineering student skilled in React, Django, and Postgres full-stack development. Experienced in API integration, testing, and optimization. Passionate about building efficient, user-centric solutions and fostering software-driven innovation.
           </p>
           <div className="flex items-center md:gap-3 gap-6">
                     {socialMedia.map((info) => (
