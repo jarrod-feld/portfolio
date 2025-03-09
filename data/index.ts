@@ -13,23 +13,24 @@ export const navItems = [
       iconLists: ["/ts.svg",'/tail.svg'],
       link: "/www.firstyearai.app",
     },
+    {
+      id: 2,
+      title: "Maxxed AI (Under Development)",
+      des: "A GPT Personal Development application aimed at providing personalized advice for improving skin care and fitness",
+      img: "/p6.png",
+      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
+      link: "/maxxed-ai.vercel.app/",
+    },
         {
             
-      id: 2,
+      id: 3,
       title: "Tune Share",
       des: "(Under Developement)TuneShare enables Spotify Premium users to host a Music Room in which all participants can listen to the same songs together.",
       img: "/p2.png",
       iconLists: ["/re.svg",  "/tail.svg","/js.svg"],
       link: "tune-room.vercel.app",
     },
-    {
-      id: 3,
-      title: "Maxxed AI (Under Development)",
-      des: "A GPT Personal Development application aimed at providing personalized advice for improving skin care and fitness",
-      img: "/p1.png",
-      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
-      link: "",
-    },
+    
     {
       id: 4,
       title: "Youtube Transcript and Research Scrapper for AI Datasets",
