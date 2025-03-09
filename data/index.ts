@@ -8,7 +8,7 @@ export const navItems = [
       {
       id: 1,
       title: "FirstYearAI(Waitlist Open)",
-      des: "(1000+ Waitlisted Users) Utilizes fine-tuned Gemini model to give First Year College Students a roadmap to learn skills",
+      des: "(1000+ Waitlisted Users) Utilizes fine-tuned AI model to give First Year College Students a roadmap to learn skills",
       img: "/p5.png",
       iconLists: ["/ts.svg",'/tail.svg'],
       link: "/www.firstyearai.app",
