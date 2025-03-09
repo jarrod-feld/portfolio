@@ -7,7 +7,7 @@ export const navItems = [
   export const projects = [
       {
       id: 1,
-      title: "FirstYearAI",
+      title: "FirstYearAI(Waitlist Open)",
       des: "(1000+ Users) Utilizes fine-tuned Gemini model to give First Year College Students a roadmap to learn skills",
       img: "/p5.png",
       iconLists: ["/ts.svg",'/tail.svg'],
@@ -15,7 +15,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Maxxed AI (Under Development)",
+      title: "Maxxed AI (Wailist Open)",
       des: "A GPT Personal Development application aimed at providing personalized advice for improving skin care and fitness",
       img: "/p6.png",
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
