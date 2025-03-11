@@ -19,7 +19,7 @@ export const navItems = [
       des: "A Personal Development mobile application aimed at providing personalized advice for improving skin care and fitness",
       img: "/p6.png",
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
-      link: "/maxxed-ai.vercel.app/",
+      link: "/maxxed.app/",
     },
         {
             
