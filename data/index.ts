@@ -17,7 +17,7 @@ export const navItems = [
       id: 2,
       title: "Maxxed AI (Appstore)",
       des: "A Personal Development mobile application aimed at providing personalized advice for improving skin care and fitness",
-      img: "/p6.png",
+      img: "/p7.png",
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
       link: "/maxxed.app/",
     },
