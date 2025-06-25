@@ -16,7 +16,7 @@ export const navItems = [
     {
       id: 2,
       title: "Maxxed AI (Appstore)",
-      des: "A Personal Development mobile application aimed at providing personalized advice for improving skin care and fitness",
+      des: "(2100+ Active Users) A Personal Development mobile application aimed at providing personalized advice for improving skin care and fitness",
       img: "/p7.png",
       iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
       link: "/maxxed.app/",
@@ -33,11 +33,11 @@ export const navItems = [
     
     {
       id: 4,
-      title: "Youtube Transcript and Research Scrapper for AI Datasets",
-      des: "Utilizes Youtube API and Google Speech to text API to compile datasets for AI",
+      title: "Uleveling (Appstore)",
+      des: "Uleveling is a mobile application that allows users to level up their skills and knowledge by completing tasks and challenges.",
       img: "/p4.png",
       iconLists: ["/ts.svg"],
-      link: "/github.com/jarrod-feld/Youtuber-Scraper",
+      link: "www.ulevel.app",
     },
     
   ];
