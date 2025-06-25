@@ -5,14 +5,15 @@ export const navItems = [
   ];
   
   export const projects = [
-      {
+    {
       id: 1,
-      title: "FirstYearAI(Waitlist Open)",
-      des: "(1000+ Waitlisted Users) Utilizes fine-tuned AI model to give First Year College Students a roadmap to learn skills",
-      img: "/p5.png",
-      iconLists: ["/ts.svg",'/tail.svg'],
-      link: "/www.firstyearai.app",
+      title: "Uleveling (Appstore)",
+      des: "Uleveling is a mobile application that allows users to level up their skills and knowledge by completing tasks and challenges.",
+      img: "/p4.png",
+      iconLists: ["/ts.svg"],
+      link: "www.ulevel.app",
     },
+      
     {
       id: 2,
       title: "Maxxed AI (Appstore)",
@@ -33,11 +34,11 @@ export const navItems = [
     
     {
       id: 4,
-      title: "Uleveling (Appstore)",
-      des: "Uleveling is a mobile application that allows users to level up their skills and knowledge by completing tasks and challenges.",
-      img: "/p4.png",
-      iconLists: ["/ts.svg"],
-      link: "www.ulevel.app",
+      title: "FirstYearAI(Waitlist Open)",
+      des: "(1000+ Waitlisted Users) Utilizes fine-tuned AI model to give First Year College Students a roadmap to learn skills",
+      img: "/p5.png",
+      iconLists: ["/ts.svg",'/tail.svg'],
+      link: "/www.firstyearai.app",
     },
     
   ];

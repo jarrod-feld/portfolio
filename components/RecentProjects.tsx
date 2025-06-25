@@ -24,9 +24,9 @@ const RecentProjects = () => {
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
                   style={{ backgroundColor: "#13162D" }}
                 >
-                  <img src="/bg.png" alt="bgimg" />
+                  <img src="/bg.png" alt="bgimg" className="object-cover w-full h-full" />
                 </div>
-                <img src={img} alt="cover" className="z-10 absolute bottom-0" />
+                <img src={img} alt="cover" className="object-cover w-full h-full z-10 absolute inset-0" />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
