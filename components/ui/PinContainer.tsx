@@ -39,7 +39,9 @@ export const PinContainer = ({
       //href={href || "/"}
       onClick={(event) => {
         event.preventDefault();
-        window.open("https://" + href, "_blank");
+        if (!href) return;
+        const url = href.startsWith("http") ? href : "https://" + href;
+        window.open(url, "_blank");
       }}
     >
       <div
@@ -70,12 +72,13 @@ export const PinPerspective = ({
   title?: string;
   href?: string;
 }) => {
+  const url = href && !href.startsWith("http") ? "https://" + href : href;
   return (
     <motion.div className="pointer-events-none w-full h-80 flex items-center justify-center opacity-0 group-hover/pin:opacity-100 z-[60] transition duration-500">
       <div className=" w-full h-full -mt-7 flex-none  inset-0">
         <div className="absolute top-0 inset-x-0  flex justify-center">
           <a
-            href={href}
+            href={url}
             target={"_blank"}
             className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 "
           >

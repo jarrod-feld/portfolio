@@ -5,25 +5,30 @@ const slugs = [
   "typescript",
   "javascript",
   "react",
-  "html5",
-  "css3",
-  "nodedotjs",
-  "nextdotjs",
-  "vercel",
+  "expo",
   "jest",
+  "appstore",
+  "apple",
+  "postgresql",
+  "sqlite",
+  "django",
+  "python",
+  "eslint",
+  "prettier",
   "git",
   "github",
-  "visualstudiocode",
-  "python",
-  
+  "mui",
+  "html5",
+  "css3",
+  "vercel",
 ];
 
 function Skills() {
   return (
-    <div className="my-10 py-20 bg-black">
+    <div className="my-10 py-20 bg-black" id="skills">
       <h1 className="heading">
         Skills &amp;{" "}
-        <span className="text-red">Technologies</span>
+        <span className="text-red-500">Technologies</span>
       </h1>
       <IconCloud iconSlugs={slugs} />
     </div>

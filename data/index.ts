@@ -1,56 +1,57 @@
 export const navItems = [
     { name: "About", link: "#about" },
+    { name: "Skills", link: "#skills" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
   ];
-  
+
   export const projects = [
     {
       id: 1,
-      title: "Uleveling (Appstore)",
-      des: "Uleveling is a mobile application that allows users to level up their skills and knowledge by completing tasks and challenges.",
-      img: "/p4.png",
-      iconLists: ["/ts.svg"],
-      link: "www.ulevel.app",
+      title: "Lull: iOS Sleep Sounds App (App Store)",
+      des: "Live on the App Store with users in 15 countries. Custom TypeScript audio engine, offline downloads, and 909 automated tests.",
+      img: "/lull-card.png",
+      iconLists: ["/re.svg", "/ts.svg", "/expo.svg", "/appstore.svg"],
+      link: "https://lull-app-seven.vercel.app",
     },
-      
+
     {
       id: 2,
-      title: "Maxxed AI (Appstore)",
-      des: "(2100+ Active Users) A Personal Development mobile application aimed at providing personalized advice for improving skin care and fitness",
-      img: "/p7.png",
-      iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
-      link: "/maxxed.app/",
+      title: "Uleveling: iOS Self-Improvement App (App Store)",
+      des: "React Native app I founded and shipped. Cut REST API calls 65% with real-time PostgreSQL sync.",
+      img: "/p4.png",
+      iconLists: ["/re.svg", "/ts.svg", "/appstore.svg"],
+      link: "https://www.ulevel.app",
     },
-        {
-            
+
+    {
       id: 3,
-      title: "Tune Share",
-      des: "(Under Developement)TuneShare enables Spotify Premium users to host a Music Room in which all participants can listen to the same songs together.",
-      img: "/p2.png",
-      iconLists: ["/re.svg",  "/tail.svg","/js.svg"],
-      link: "tune-room.vercel.app",
+      title: "MaxxedAI: iOS Skincare & Beauty App (App Store)",
+      des: "2,100+ users. AI skincare advice with an Edge Function queue sustaining 99% reliability at 10,000 requests/min.",
+      img: "/p7.png",
+      iconLists: ["/re.svg", "/ts.svg", "/appstore.svg"],
+      link: "https://maxxed.app",
     },
-    
+
     {
       id: 4,
-      title: "FirstYearAI(Waitlist Open)",
-      des: "(1000+ Waitlisted Users) Utilizes fine-tuned AI model to give First Year College Students a roadmap to learn skills",
+      title: "FirstYearAI: AI Resume Builder (Web)",
+      des: "1,000+ users. AI LaTeX resume generator that cut manual editing time 60%, with CI/CD and a 99% error-free pipeline.",
       img: "/p5.png",
-      iconLists: ["/ts.svg",'/tail.svg'],
-      link: "/www.firstyearai.app",
+      iconLists: ["/ts.svg", "/next.svg", "/tail.svg"],
+      link: "https://www.firstyearai.app",
     },
-    
+
   ];
-  
-    
+
+
   export const socialMedia = [
     {
       id: 1,
       img: "/git.svg",
       href: "https://github.com/jarrod-feld",
     },
-    
+
     {
       id: 3,
       img: "/link.svg",

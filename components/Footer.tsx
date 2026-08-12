@@ -18,6 +18,10 @@ const Footer = () => {
         <h1 className="heading lg:max-w-[45vw]">
           Contact me
         </h1>
+        <p className="text-center text-white-100 md:mt-6 mt-4 text-sm md:text-base max-w-xl">
+          Open to mobile engineering internships and entry-level React Native /
+          iOS roles (graduating May 2027) · Pomona, CA (Los Angeles area)
+        </p>
         <a href="mailto:jdevin814@gmail.com">
           <MagicButton
             title="Let's get in touch"

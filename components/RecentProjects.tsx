@@ -18,7 +18,7 @@ const RecentProjects = () => {
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
           >
-            <PinContainer title={link} href={link} >
+            <PinContainer title={link.replace(/^https?:\/\//, "")} href={link} >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -34,7 +34,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-3"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -60,7 +60,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm ">Live</p>
-                  <FaLocationArrow className="ms-3" color="red-100" />
+                  <FaLocationArrow className="ms-3 text-red-500" />
                 </div>
               </div>
             </PinContainer>

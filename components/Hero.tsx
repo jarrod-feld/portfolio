@@ -23,10 +23,20 @@ const Hero = () => {
       text: "Jarrod",
       className: "text-red-500 dark:text-red-500",
     },
+    {
+      text: "Feld",
+      className: "text-red-500 dark:text-red-500",
+    },
+  ];
+
+  const proofChips = [
+    "3 apps on the App Store",
+    "4,500+ active users",
+    "Users in 15 countries",
   ];
 
   return (
-    <div id="home" className="pb-20 pt-36">
+    <div id="about" className="pb-20 pt-36">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -47,25 +57,41 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center bg-black" />
       </div>
 
-      <div className="flex justify-center relative my-20-z-10">
+      <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <img
             src="/dp4.jpg"
-            alt="profile-pic"
+            alt="Jarrod Feld, mobile software engineer"
             className="rounded-full w-80 h-80 border-2 border-white-100 mb-5"
           />
           <TypewriterEffect
             className="text-center md:text-5xl lg:text-6xl my-5"
             words={words}
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          Aerospace engineering student skilled in React, Django, and Postgres full-stack development. Experienced in API integration, testing, and optimization. Passionate about building efficient, user-centric solutions and fostering software-driven innovation.
+          <p className="uppercase tracking-widest text-xs md:text-sm text-center text-red-500 mb-4">
+            Mobile Software Engineer · React Native &amp; iOS
           </p>
+          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+            I ship production React Native + TypeScript apps to the iOS App
+            Store, serving 4,500+ active users, with automated testing, CI/CD,
+            and Expo/EAS release pipelines. Founder of Maxxed Studios and
+            aerospace engineering student with a CS minor at Cal Poly Pomona.
+          </p>
+          <div className="flex flex-wrap justify-center gap-2 mb-6">
+            {proofChips.map((chip) => (
+              <span
+                key={chip}
+                className="text-xs md:text-sm px-3 py-1 rounded-full border border-white/[.2] bg-black-200 text-white-100"
+              >
+                {chip}
+              </span>
+            ))}
+          </div>
           <div className="flex items-center md:gap-3 gap-6">
                     {socialMedia.map((info) => (
                       <div
                         key={info.id}
-                        className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                        className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-150 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
                       >
                         <a href={info.href} target="_blank">
                           <img src={info.img} alt="icons" width={30} height={20} />
