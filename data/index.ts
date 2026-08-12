@@ -9,7 +9,7 @@ export const navItems = [
     {
       id: 1,
       title: "Lull: iOS Sleep Sounds App (App Store)",
-      des: "Live on the App Store with users in 15 countries. Custom TypeScript audio engine, offline downloads, and 909 automated tests.",
+      des: "Live on the App Store with users in 15 countries. Custom TypeScript audio engine, offline downloads, and automated test pipelines.",
       img: "/lull-card.png",
       iconLists: ["/re.svg", "/ts.svg", "/expo.svg", "/appstore.svg"],
       link: "https://lull-app-seven.vercel.app",

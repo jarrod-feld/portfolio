@@ -6,7 +6,7 @@ Personal portfolio site for **Jarrod Feld**, a mobile software engineer shipping
 
 ## Featured work
 
-- **[Lull](https://lull-app-seven.vercel.app)**: iOS sleep-sounds app, live on the [App Store](https://apps.apple.com/us/app/lull-sleep-sounds-rain-fan/id6786537385) with users in 15 countries. Custom TypeScript audio engine on expo-audio, offline downloads, fault-tolerant subscriptions, 909 automated tests across 33 suites.
+- **[Lull](https://lull-app-seven.vercel.app)**: iOS sleep-sounds app, live on the [App Store](https://apps.apple.com/us/app/lull-sleep-sounds-rain-fan/id6786537385) with users in 15 countries. Custom TypeScript audio engine on expo-audio, offline downloads, fault-tolerant subscriptions, and automated test pipelines.
 - **[Uleveling](https://www.ulevel.app)**: iOS self-improvement app (founder). Real-time PostgreSQL sync, 65% fewer REST calls, 23% smaller resource footprint.
 - **[MaxxedAI](https://maxxed.app)**: iOS skincare app (co-founder), 2,100+ users. Edge Function queue for AI API calls at 99% reliability.
 - **[FirstYearAI](https://www.firstyearai.app)**: AI resume LaTeX generator, 1,000+ users.
