@@ -10,7 +10,7 @@ export const navItems = [
       id: 1,
       title: "Lull: iOS Sleep Sounds App (App Store)",
       des: "Live on the App Store with users in 15 countries. Custom TypeScript audio engine, offline downloads, and automated test pipelines.",
-      img: "/lull-card.png",
+      img: "/lull-site.png",
       iconLists: ["/re.svg", "/ts.svg", "/expo.svg", "/appstore.svg"],
       link: "https://lull-app-seven.vercel.app",
     },
@@ -21,7 +21,7 @@ export const navItems = [
       des: "React Native app I founded and shipped. Cut REST API calls 65% with real-time PostgreSQL sync.",
       img: "/p4.png",
       iconLists: ["/re.svg", "/ts.svg", "/appstore.svg"],
-      link: "https://www.ulevel.app",
+      link: "https://apps.apple.com/us/app/uleveling/id6745492767",
     },
 
     {
@@ -35,11 +35,11 @@ export const navItems = [
 
     {
       id: 4,
-      title: "FirstYearAI: AI Resume Builder (Web)",
-      des: "1,000+ users. AI LaTeX resume generator that cut manual editing time 60%, with CI/CD and a 99% error-free pipeline.",
-      img: "/p5.png",
-      iconLists: ["/ts.svg", "/next.svg", "/tail.svg"],
-      link: "https://www.firstyearai.app",
+      title: "Maxxed Studios: UGC Creative Agency",
+      des: "UGC agency I founded. 500M+ views and $200K+ in revenue generated for DTC, e-commerce, and SaaS brands.",
+      img: "/maxxed-studios.png",
+      iconLists: ["/next.svg", "/tail.svg"],
+      link: "https://www.maxxedstudios.net",
     },
 
   ];
